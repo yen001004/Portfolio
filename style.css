@@ -100,11 +100,17 @@ p {
   color: var(--color-white);
   padding: 12px;
   transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
 }
 
 #navbar.navbar--dark {
   background-color: var(--color-pink);
   padding: 6px;
+}
+
+#navbar.navbar--dark .navbar__toggle-btn {
+  top: 12px;
+  transition: all var(--animation-duration) ease-in-out;
 }
 
 .navbar__menu {
@@ -121,6 +127,7 @@ p {
 
 .navbar__logo img {
   width: 40px;
+  height: 40px;
   align-items: center;
   margin-right: 8px;
 }
