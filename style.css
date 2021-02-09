@@ -133,8 +133,12 @@ p {
   margin: 0 4px;
   cursor: pointer;
   border-radius: var(--size-border-radius);
-  border: 1px solid transparent;
+
   white-space: nowrap;
+}
+
+.navbar__menu__item.active {
+  border: 1px solid white;
 }
 
 .navbar__menu__item:hover {
@@ -186,7 +190,7 @@ p {
 
 /* Section common */
 .section {
-  padding: 50px;
+  padding: 70px;
   text-align: center;
   margin: auto;
 }
